@@ -18,7 +18,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I write about data, design, technology and top research going on currently
+      To stay updated with the Top Research going on currently and learn more
+      about Science and Technology
     </>
   ),
 };
@@ -64,7 +65,7 @@ const home = {
   // },
   subline: (
     <>
-      Here are some of my projects.
+      Here are some of my projects
       {/* <br /> I'm interested in Data Science , Blockchain , Design & Development{" "}
       {/* <Logo
         icon={false}
@@ -97,9 +98,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        I'm a design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. My work spans digital interfaces,
-        interactive experiences, and the convergence of design and technology.
+        I have a passion for designing and building innovative projects. I am
+        interested in Data Science, Blockchain and Design. Learning to design,
+        implement, and maintain applications.
       </>
     ),
   },
@@ -140,7 +141,7 @@ const about = {
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Technical skills",
     skills: [
       {
