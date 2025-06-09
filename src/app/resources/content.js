@@ -99,8 +99,8 @@ const about = {
     description: (
       <>
         I have a passion for designing and building innovative projects. I am
-        interested in Data Science, Blockchain and Design. Learning to design,
-        implement, and maintain applications.
+        interested in Data Science, Blockchain , Research and Design. Learning
+        to design, implement, and maintain applications.
       </>
     ),
   },
@@ -120,7 +120,7 @@ const about = {
           // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/project-01/cover-01.png",
-            alt: "Once UI Project",
+            alt: "Blockchain Project",
             width: 16,
             height: 9,
           },
