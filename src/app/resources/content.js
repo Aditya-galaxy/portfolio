@@ -18,8 +18,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      To stay updated with the Top Research going on currently and learn more
-      about Science and Technology
+      {/* To stay updated with the Top Research going on currently and learn more
+      about Science and Technology */}
     </>
   ),
 };
@@ -67,7 +67,7 @@ const home = {
   },
   subline: (
     <>
-      I am a Computer Science Student from India , here are some of my projects
+      I am a Computer Science Student, here are some of my projects
       {/* <br /> I'm interested in Data Science , Blockchain , Design & Development{" "}
       {/* <Logo
         icon={false}
