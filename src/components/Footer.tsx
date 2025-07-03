@@ -34,6 +34,14 @@ export const Footer = () => {
               Once UI
             </SmartLink>
           </Text>
+          <Text onBackground="neutral-weak">
+            / View the Source Code on {" "}
+            <SmartLink
+              href="https://github.com/Aditya-galaxy/portfolio"
+            >
+              Github
+            </SmartLink>
+          </Text>
         </Text>
         <Flex gap="16">
           {social.map(
