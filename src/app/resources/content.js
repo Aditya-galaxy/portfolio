@@ -67,7 +67,7 @@ const home = {
   },
   subline: (
     <>
-      I am a Computer Science Student, here are some of my projects
+      I am a CS Undergrad at IIITS, here are some of my projects
       {/* <br /> I'm interested in Data Science , Blockchain , Design & Development{" "}
       {/* <Logo
         icon={false}
