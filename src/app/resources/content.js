@@ -6,10 +6,10 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Computer Science Student",
+  role: "Full Stack Developer",
   avatar: "/images/avatar.jpg",
   email: "aditya.socialinfo@gmail.com",
-  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "IST", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: [], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -55,7 +55,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Hey, My name is Aditya</>,
+  headline: <>Hi, My name is Aditya</>,
   featured: {
     display: true,
     title: (
@@ -67,7 +67,7 @@ const home = {
   },
   subline: (
     <>
-      I am a CS Undergrad at IIITS, here are some of my projects
+      I am a Computer Science undergraduate student at IIIT Sonepat, passionate about software development and technology. Below are some of the projects I have worked on that showcase my skills and learning journey.
       {/* <br /> I'm interested in Data Science , Blockchain , Design & Development{" "}
       {/* <Logo
         icon={false}
@@ -111,9 +111,9 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "BlockseBlock - Hacker House(Hackathon)",
+        company: "BlockseBlock",
         timeframe: "Mar 2025",
-        role: "Developer",
+        role: "Blockchain Developer Intern",
         achievements: [
           <>Deployed a demo cryptocurrency exchange app on ICP Blockchain.</>,
           <>Implemented Trading View widget for real-time market insights.</>,
